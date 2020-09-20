@@ -450,4 +450,6 @@ class PreferencesHelper(val context: Context) {
     fun biometricTimeRanges() = flowPrefs.getStringSet(Keys.biometricTimeRanges, mutableSetOf())
 
     fun sortTagsForLibrary() = flowPrefs.getStringSet(Keys.sortTagsForLibrary, mutableSetOf())
+
+    fun isFullBackup() = flowPrefs.getBoolean(Keys.isFullBackup, false)
 }
