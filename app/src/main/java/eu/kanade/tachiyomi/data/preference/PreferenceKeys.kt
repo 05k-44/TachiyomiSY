@@ -335,5 +335,5 @@ object PreferenceKeys {
 
     const val sortTagsForLibrary = "sort_tags_for_library"
 
-    const val isFullBackup = "isd_full_backup"
+    const val createLegacyBackup = "create_legacy_backup"
 }
